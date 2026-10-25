@@ -153,7 +153,7 @@
     const spotifyTarget = track.spotify || `https://open.spotify.com/search/${encodeURIComponent(`PabzOfficial ${track.title}`)}`;
     $('screen-spotify-link').hidden = false;
     $('screen-spotify-link').href = spotifyTarget;
-    $('screen-spotify-link').firstChild.textContent = track.spotify ? 'Spotify ' : 'Spotify search ';
+    $('screen-spotify-link').firstChild.textContent = 'Spotify ';
     $('screen-spotify-link').setAttribute('aria-label', track.spotify
       ? `Open ${track.title} on Spotify`
       : `Search Spotify for ${track.title} by PabzOfficial`);
