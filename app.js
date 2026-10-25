@@ -350,7 +350,6 @@
   $('select-button').onclick = chooseSelection;
   $('play-button').onclick = () => togglePreview(view !== 'now');
   $('preview-button').onclick = () => togglePreview(false);
-  $('apple-player-button').onclick = () => showPlatformPlayer(true);
 
   let wheelAccum = 0;
   let lastWheelTime = 0;
